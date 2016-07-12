@@ -1,0 +1,24 @@
+#oneimg{
+    background-size: cover;
+    background-repeat: no-repeat;
+   	position: fixed;
+   	top:0px;
+   	left: 0px;
+   	height: 100%;
+   	width: 100%;
+   	z-index: -5;
+}
+.changerimg {
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    z-index: 6;
+    cursor: pointer;
+ 
+}
+#oneimgmenu{
+    display: none;
+    background-color: rgba(255, 253, 253, 0.34);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff); 
+    border-radius: 8px;
+}
