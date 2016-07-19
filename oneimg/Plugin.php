@@ -44,7 +44,7 @@ $pd = Helper::options()->pluginUrl . '/oneimg/oneimg.js';
  echo '<script type="text/javascript" src="'.$pd.'"></script>' . "\n";
 
 			echo '<div id="oneimg"></div>
-<div class="changerimg" onmousemove="showoneimg()" onmouseout="hideoneimg()" onclick="hideoneimg()">
+<div class="changerimg" onmousemove="showoneimg()" onmouseout="hideoneimg()" onclick="showoneimg()">
         <img  id="oneimgmenuimg" src="'. Helper::options()->pluginUrl .'/oneimg/img/imgmenu.png" style="width: 70px;">
         <div id="oneimgmenu">
             <img src="'. Helper::options()->pluginUrl .'/oneimg/img/imgdown.png" title="下载/评论图片" style="width: 70px;"   onclick="DownImg()">    
