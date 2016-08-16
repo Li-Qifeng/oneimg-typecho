@@ -32,7 +32,7 @@ window.onload=function(){
     }
 }
 function ChangerImg(){
-        OneImgnumber=Math.round(Math.random() * 2376);
+        OneImgnumber=Math.round(Math.random() * 4300);
         document.cookie="oneimg="+OneImgnumber+";path=/"; 
         OneImg = "https://app.haotown.cn/img/bj@" + OneImgnumber + ".jpg";
         document.getElementById("oneimg").style.backgroundImage = "url(" + OneImg + ")";
